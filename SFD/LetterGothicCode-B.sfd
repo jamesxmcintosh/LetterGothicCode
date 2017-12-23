@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1456764359
-ModificationTime: 1511560353
+ModificationTime: 1513933469
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -957,7 +957,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 27 27 9
+WinInfo: 0 27 9
 BeginPrivate: 12
 BlueValues 27 [-27 1 1094 1121 1472 1503]
 OtherBlues 11 [-426 -414]
@@ -3848,81 +3848,101 @@ StartChar: one
 Encoding: 49 49 20
 Width: 1120
 Flags: W
-HStem: 0 215<178 460 690 956>
-VStem: 460 230<215 1260>
+HStem: 0 215<178 460 690 956> 1108 216<164 380> 1456 20G<620.789 690>
+VStem: 460 230<215 1193>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
- 7
+ 6
  1
  0
 CALL
 PUSHB_2
- 8
+ 7
  4
 MIRP[min,black]
 PUSHB_1
- 4
+ 3
 SHP[rp2]
+PUSHB_3
+ 2
+ 3
+ 0
+CALL
+PUSHB_3
+ 0
+ 2
+ 0
+CALL
+PUSHB_2
+ 1
+ 4
+MIRP[min,black]
 SVTCA[x-axis]
 PUSHB_1
- 12
+ 10
 MDAP[rnd]
 PUSHB_1
- 10
+ 9
 MDRP[rp0,rnd,white]
 PUSHB_2
- 3
+ 2
  13
 MIRP[min,black]
 PUSHB_3
- 3
- 10
+ 2
+ 9
  10
 CALL
 PUSHB_4
  64
- 3
- 6
+ 2
+ 5
  9
 CALL
 PUSHB_3
- 10
- 3
+ 9
+ 2
  10
 CALL
 PUSHB_4
  64
- 10
+ 9
  1
  9
 CALL
 PUSHB_1
- 3
+ 2
 SRP0
 PUSHB_1
- 13
+ 11
 MDRP[rp0,rnd,white]
 SVTCA[y-axis]
+PUSHB_2
+ 1
+ 0
+SRP1
+SRP2
+PUSHB_1
+ 9
+IP
 IUP[y]
 IUP[x]
 EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-164 1175 m 5,0,-1
- 164 1391 l 5,1,-1
- 675 1539 l 5,2,-1
- 690 1543 l 5,3,-1
- 690 215 l 1,4,-1
- 956 215 l 1,5,-1
- 956 0 l 1,6,-1
- 178 0 l 1,7,-1
- 178 215 l 1,8,-1
- 460 215 l 1,9,-1
- 460 1260 l 5,10,-1
- 179 1179 l 5,11,-1
- 164 1175 l 5,0,-1
+164 1108 m 1,0,-1
+ 164 1324 l 1,1,-1
+ 690 1476 l 5,2,-1
+ 690 215 l 1,3,-1
+ 956 215 l 1,4,-1
+ 956 0 l 1,5,-1
+ 178 0 l 1,6,-1
+ 178 215 l 1,7,-1
+ 460 215 l 1,8,-1
+ 460 1193 l 1,9,-1
+ 164 1108 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -4323,74 +4343,74 @@ StartChar: four
 Encoding: 52 52 23
 Width: 1120
 Flags: W
-HStem: 0 21G<635 865> 339 215<327 635 865 1078> 1481 20G<596 865>
-VStem: 635 230<0 339 554 1134>
-DStem2: 42 488 327 554 0.486448 0.873709<196.303 852.88>
+HStem: 0 21G<635 865> 316 215<327 635 865 1078> 1458 20G<594.865 865>
+VStem: 635 230<0 316 531 1111>
+DStem2: 42 465 327 531 0.486448 0.873709<196.303 852.88>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
- 10
+ 9
  1
  0
 CALL
 PUSHB_3
- 3
+ 2
  3
  0
 CALL
 PUSHB_5
  0
- 12
- 10
- 3
+ 11
+ 9
+ 2
  13
 CALL
 PUSHB_1
- 5
+ 4
 SHP[rp1]
 PUSHB_2
  0
  4
 MIRP[min,black]
 PUSHB_1
- 7
+ 6
 SHP[rp2]
 SVTCA[x-axis]
 PUSHB_1
- 15
+ 14
 MDAP[rnd]
 PUSHB_1
- 14
+ 13
 MDRP[rp0,rnd,white]
 PUSHB_1
- 10
+ 9
 SHP[rp2]
 PUSHB_2
- 4
+ 3
  13
 MIRP[min,black]
 PUSHB_1
- 8
+ 7
 SHP[rp2]
 PUSHB_3
- 4
- 14
+ 3
+ 13
  10
 CALL
 PUSHB_4
  64
- 4
- 7
+ 3
+ 6
  9
 CALL
 PUSHB_3
- 14
- 4
+ 13
+ 3
  10
 CALL
 PUSHB_4
  64
- 14
+ 13
  0
  9
 CALL
@@ -4398,10 +4418,10 @@ PUSHB_1
  1
 SHP[rp2]
 PUSHB_1
- 4
+ 3
 SRP0
 PUSHB_1
- 16
+ 15
 MDRP[rp0,rnd,white]
 PUSHB_1
  54
@@ -4418,59 +4438,26 @@ PUSHB_1
 MDAP[no-rnd]
 SFVTCA[x-axis]
 PUSHB_1
- 3
+ 2
 MDRP[grey]
 PUSHB_2
- 12
+ 11
  4
 MIRP[rp0,min,black]
 SFVTCA[y-axis]
 PUSHB_1
- 14
+ 13
 MDRP[grey]
-PUSHW_3
- 14315
- -7970
- 21
-CALL
-SFVFS
-PUSHB_1
+SPVTCA[y-axis]
+PUSHB_2
  1
-SRP0
-PUSHB_4
- 2
- 1
- 3
- 19
-CALL
-PUSHB_3
- 2
- 1
- 3
-DUP
-ROLL
-DUP
-ROLL
-SWAP
-SPVTL[parallel]
-SFVTPV
-SRP1
-SRP2
-IP
-SVTCA[y-axis]
-PUSHB_3
- 1
- 2
- 14
-MDAP[no-rnd]
+ 13
 MDAP[no-rnd]
 MDAP[no-rnd]
 SVTCA[x-axis]
-PUSHB_3
+PUSHB_2
  2
- 3
- 12
-MDAP[no-rnd]
+ 11
 MDAP[no-rnd]
 MDAP[no-rnd]
 PUSHB_1
@@ -4484,23 +4471,22 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-42 339 m 1,0,-1
- 42 488 l 1,1,-1
- 595 1479 l 1,2,-1
- 606 1501 l 1,3,-1
- 865 1501 l 1,4,-1
- 865 554 l 1,5,-1
- 1078 554 l 1,6,-1
- 1078 339 l 1,7,-1
- 865 339 l 1,8,-1
- 865 0 l 1,9,-1
- 635 0 l 1,10,-1
- 635 339 l 1,11,-1
- 42 339 l 1,0,-1
-327 554 m 1,12,-1
- 635 554 l 1,13,-1
- 635 1134 l 1,14,-1
- 327 554 l 1,12,-1
+42 316 m 5,0,-1
+ 42 465 l 5,1,-1
+ 606 1478 l 5,2,-1
+ 865 1478 l 5,3,-1
+ 865 531 l 5,4,-1
+ 1078 531 l 5,5,-1
+ 1078 316 l 5,6,-1
+ 865 316 l 5,7,-1
+ 865 0 l 1,8,-1
+ 635 0 l 1,9,-1
+ 635 316 l 5,10,-1
+ 42 316 l 5,0,-1
+327 531 m 5,11,-1
+ 635 531 l 5,12,-1
+ 635 1111 l 5,13,-1
+ 327 531 l 5,11,-1
 EndSplineSet
 EndChar
 
