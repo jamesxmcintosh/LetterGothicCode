@@ -1,5 +1,7 @@
 # Letter Gothic Code #
 
+![Example](Preview.jpg)
+
 TTF Files hinted using TTF Autohint v1.6
 
 ## License ##
