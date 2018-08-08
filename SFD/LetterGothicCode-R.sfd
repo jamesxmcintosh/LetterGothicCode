@@ -22,7 +22,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1456764359
-ModificationTime: 1513932770
+ModificationTime: 1532683275
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -1014,7 +1014,7 @@ Width: 1120
 GlyphClass: 2
 Flags: W
 HStem: -29 330<447.546 672.454> 1455 20G<460 660>
-VStem: 395 330<22.0205 248.454> 460 200<1077.47 1475> 497 135<449 846.533>
+VStem: 395 330<22.0205 248.454> 460 200<1087.93 1475> 497 135<476 863.072>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -1144,8 +1144,8 @@ SplineSet
  395 67 395 67 395 136 c 256,0,1
 460 1475 m 1,10,-1
  660 1475 l 1,11,-1
- 632 449 l 1,12,-1
- 497 449 l 1,13,-1
+ 632 476 l 5,12,-1
+ 497 476 l 5,13,-1
  460 1475 l 1,10,-1
 EndSplineSet
 EndChar
